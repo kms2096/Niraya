@@ -1,0 +1,49 @@
+-- Credits --
+
+DEVELOPERS:
+
+	Team AAAA is
+		quinn jacobs
+		frederick basken
+		katherine stein
+		victoria lau
+
+
+ASSETS:
+
+	Clembod; "Warrior-Free Animation set V1.3" sprite
+	https://clembod.itch.io/warrior-free-animation-set
+	
+	Nathan Scott (@caffi_nate); "Abaddon Lite", "Abaddon Bold" fonts
+	https://caffinate.itch.io/abaddon
+	
+	Tiny Worlds; "Thaleah Fat" font
+	https://tinyworlds.itch.io/free-pixel-font-thaleah
+	
+	aamatniekss (@Namatnieks); "Fantasy Knight - Free Pixelart Animated Character"
+	https://aamatniekss.itch.io/fantasy-knight-free-pixelart-animated-character
+	
+	Foozle / nicoleng24; "Green Valley Tileset"
+	https://foozlecc.itch.io/green-valley-tileset
+	
+	Trixie (@trixelized); "STRINGSTAR FIELDS"
+	https://trixelized.itch.io/starstring-fields
+	
+	edermunizz; "Free Pixel Art Hill", "Free Pixel Art Forest"
+	https://edermunizz.itch.io/free-pixel-art-hill
+	https://edermunizz.itch.io/free-pixel-art-forest
+	
+	Marllon Silva a.k.a xDeviruchi; "8-Bit Fantasy & Adventure Music Pack"
+	https://xdeviruchi.itch.io/8-bit-fantasy-adventure-music-pack
+	
+	ObsydianX; "Interface SFX Pack 1"
+	https://obsydianx.itch.io/interface-sfx-pack-1
+
+	Jesse M (@Jsf23Art); "Skeleton Sprite Pack"
+	https://jesse-m.itch.io/skeleton-pack
+
+	
+TOOLS:
+
+	Built in MonoGame
+	Levels created with Tiled (mapeditor.org)
