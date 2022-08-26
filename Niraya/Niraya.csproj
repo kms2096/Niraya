@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PublishReadyToRun>false</PublishReadyToRun>
+    <TieredCompilation>false</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Content\_Image Assets\NewFolder\**" />
+    <Compile Remove="Content\_Image Assets\_Character\**" />
+    <Compile Remove="Content\_Image Assets\_OverworldBG\**" />
+    <EmbeddedResource Remove="Content\_Image Assets\NewFolder\**" />
+    <EmbeddedResource Remove="Content\_Image Assets\_Character\**" />
+    <EmbeddedResource Remove="Content\_Image Assets\_OverworldBG\**" />
+    <None Remove="Content\_Image Assets\NewFolder\**" />
+    <None Remove="Content\_Image Assets\_Character\**" />
+    <None Remove="Content\_Image Assets\_OverworldBG\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Icon.ico" />
+    <None Remove="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+    <EmbeddedResource Include="Icon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <TrimmerRootAssembly Include="Microsoft.Xna.Framework.Content.ContentTypeReader" Visible="false" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+    <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.0.1641" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\_Image Assets\UI\" />
+    <Folder Include="Content\_Image Assets\_debugging\" />
+  </ItemGroup>
+</Project>
